@@ -1,0 +1,216 @@
+/* GOOGLE FONTS */
+
+/* font-family: 'Yantramanav', sans-serif; */
+/* font-family: 'Hind Vadodara', sans-serif; */
+/* font-family: 'Cambay', sans-serif; */
+
+/* GOOGLE FONTS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.navbar {
+    background-color: #002e69d4;
+    width: 100vw;
+    /* position: fixed; */
+    position: sticky;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__item {
+    display: inline-block;
+    margin: 15px 50px;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.menu__item a:hover {
+    color: #fff;
+    background-color: #0c693c;
+    border-radius: 5px;
+}
+
+.menu__item.active a {
+    color: #fff;
+    background-color: #0c693c;
+    border-radius: 5px;
+}
+
+/* HEADER */
+
+/* FIRST SECTION */
+
+.card {
+    height: 100vh;
+    background-image: url(/images/index/ejemplo6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+
+.card__info {
+    color: rgb(255 255 255);
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    background-color: #0000007d;
+    padding: 10px;
+    height: 120px;
+    width: 100%;
+    /* margin-bottom: 100px; */
+}
+
+.card h1 {
+    font-size: 2.8rem;
+}
+
+.card__btn {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+
+    padding: 10px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card__btn:hover {
+    color: #fff;
+    background-color: black;
+}
+
+/* FIRST SECTION */
+
+/* SECOND SECTION */
+
+#card2 {
+    height: 100vh;
+    background-image: url(/images/index/section2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card__info2 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #0000007d;
+    width: 100%;
+    height: 155px;
+    padding: 10px;
+    /* height: 82px;
+    margin-bottom: 100px; */
+}
+
+/* SECOND SECTION */
+
+/* FOOTER */
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    padding: 15px 0px;
+    color: #fff;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.footer__renzo {
+    font-size: 1.2rem;
+    align-self: flex-start;
+    margin-inline: 3px;
+}
+
+.footer__container svg {
+    height: 35px;
+    margin-inline: -7px;
+    align-self: flex-start;
+}
+
+/* .footer__rigths {
+    position: relative;
+}
+
+.footer__rigths p {
+    position: absolute;
+    margin-block: 40px;
+    width: 300px;
+    right: -10px;
+} */
+
+/* FOOTER */
+
+/* GALERÍA PAGE */
+
+.container__img {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img2 img5"
+    "img6 img6 img6";
+    align-items: stretch;
+}
+
+.img {
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+/* GALERÍA PAGE END */
