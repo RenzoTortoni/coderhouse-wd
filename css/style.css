@@ -7,17 +7,19 @@
 /* GOOGLE FONTS */
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* HEADER INDEX */
+.navbar-brand {
+    filter: invert(1);
+}
 
 .navbar {
     background-color: #002e69d4;
     width: 100vw;
-    /* position: fixed; */
     position: sticky;
     list-style-type: none;
     padding: 10px;
@@ -51,14 +53,12 @@
     background-color: #0c693c;
     border-radius: 5px;
 }
-
-/* HEADER */
+/* HEADER END */
 
 /* FIRST SECTION */
-
 .card {
     height: 100vh;
-    background-image: url(/images/index/ejemplo6.jpg);
+    background-image: url(/images/index/section1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -98,11 +98,9 @@
     color: #fff;
     background-color: black;
 }
-
 /* FIRST SECTION */
 
 /* SECOND SECTION */
-
 #card2 {
     height: 100vh;
     background-image: url(/images/index/section2.jpg);
@@ -128,11 +126,22 @@
     /* height: 82px;
     margin-bottom: 100px; */
 }
-
 /* SECOND SECTION */
 
-/* FOOTER */
+/* CONTACTO */
+.bg__img {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
 
+
+/* CONTACTO */
+
+/* FOOTER */
 .footer__container {
     display: flex;
     flex-direction: row;
@@ -167,11 +176,9 @@
     width: 300px;
     right: -10px;
 } */
-
 /* FOOTER */
 
 /* GALERÍA PAGE */
-
 .container__img {
     display: grid;
     height: 100vh;
@@ -212,5 +219,4 @@
 .img6 {
     grid-area: img6;
 }
-
 /* GALERÍA PAGE END */

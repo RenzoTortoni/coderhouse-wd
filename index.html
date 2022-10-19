@@ -5,19 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Nature</title>
+    <title>NATURE</title>
 
-    <link rel="fav icon" href="./images/fav-icon.png">
-    <link type="image/png" sizes="96x96" rel="icon" href=".../icons8-gruesa-flecha-apuntando-hacia-abajo-96.png">
-
+    <link rel="shortcut icon" href="/icons/fav-icon.png" type="image/x-icon">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cambay:ital@0;1&family=Hind+Vadodara&family=Yantramanav&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cambay:ital@0;1&family=Hind+Vadodara&family=Yantramanav&display=swap" rel="stylesheet">
     <!-- GOOGLE FONTS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -25,24 +24,35 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <ul class="navbar__menu">
-                <li class="menu__item">
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li class="menu__item">
-                    <a href="/pages/galeria.html">Galería</a>
-                </li>
-                <li class="menu__item active">
-                    <a href="/pages/concientizate.html">Concientizate</a>
-                </li>
-                <li class="menu__item">
-                    <a href="/pages/donaciones.html">Donaciones</a>
-                </li>
-                <li class="menu__item">
-                    <a href="/pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/icons/fav-icon.png" alt="Nature logo" width="40" height="34" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav p-2">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="/pages/noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="/pages/concientizate.html">Concientizate</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="/pages/galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -67,9 +77,6 @@
                 </a>
             </div>
         </section>
-
-
-
     </main>
 
     <footer class="footer__container">
