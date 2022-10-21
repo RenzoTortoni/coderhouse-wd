@@ -7,17 +7,21 @@
 
     <title>NATURE</title>
 
-    <link rel="shortcut icon" href="./icons/fav-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icons/fav-icon.png" type="image/x-icon">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cambay:ital@0;1&family=Hind+Vadodara&family=Yantramanav&display=swap" rel="stylesheet">
-    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cambay:ital@0;1&family=Hind+Vadodara&family=Yantramanav&display=swap"
+        rel="stylesheet">
 
+    <!-- FRAMEWORKS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -27,7 +31,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./icons/fav-icon.png" alt="Nature logo" width="40" height="34" class="d-inline-block align-text-top">
+                    <img src="./images/icons/fav-icon.png" alt="Nature logo" width="40" height="34"
+                        class="d-inline-block align-text-top" style="filter: invert(1);">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,53 +61,122 @@
         </nav>
     </header>
 
-    <main>
-        <section class="card">
-            <div class="card__info">
-                <h1>¿SABES LO QUE PASA CON NUESTRO MUNDO?</h1>
-                <a href="#card2">
-                    <button class="card__btn">
-                        Click aquí
-                    </button>
-                </a>
-        </section>
+    <section>
+        <div class="hero container-fluid text-white d-flex flex-column justify-content-center align-items-center">
+            <h1 class="fw-bold text-focus-in">BIENVENIDO A NATURE</h1>
+            <p class="fs-3 fw-bold tracking-in-expand-fwd-bottom">CONCIENTIZACIÓN AMBIENTAL</p>
+        </div>
+    </section>
 
-        <section id="card2">
-            <div class="card__info2">
-                <h1>LO ESTAMOS DESTRUYENDO SIN CULPABILIDAD <br> AYUDATE HACIENDO DE TU HOGAR UN MEJOR LUGAR <h1>
-                <a href="/pages/concientizate.html">
-                    <button class="card__btn">
-                        Quiero ser parte del cambio
-                    </button>
-                </a>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center fs-1 fw-bold mt-3">LOS 3 PASOS MÁS IMPORTANTES...</h2>
+                </div>
             </div>
-        </section>
-    </main>
 
-    <footer class="footer__container">
-        <span class="footer__renzo">Designed by Renzo Tortoni on</span>
-    
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
-            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
-            <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />
-            <path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z" />
-            <path fill="#EEE"
-                d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
-            <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
-            <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />
-            <path fill="#FFF"
-                d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z" />
-            <path fill="#EEE"
-                d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z" />
-        </svg>
-    
-        <div class="footer__rigths">
-            <p>All rights reserved 2022 - <a href="">Material usado</a></p>
+        </div>
+
+        <div class="contenedor__cartas container pb-3">
+            <div class="row">
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 cartas carta1" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="600" data-aos-delay="300">
+                        <img src="./images/index/cartas/yasser-mokhtarzadeh-pFNzOEak33M-unsplash.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="text-center">Identificar el problema</h3>
+
+                            <p class="card-text">Es el primer paso, y quizás el más importante, ya que reconocemos
+                                que algo no esta bien y debe cambiar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 cartas carta2" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="600" data-aos-delay="800">
+                        <img src="./images/index/cartas/yasser-mokhtarzadeh-pFNzOEak33M-unsplash.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="text-center">Analizar la causa</h3>
+
+                            <p class="card-text">Identificar donde surge la causa y ver las fuerzas que contribuyen
+                                a que dicho problema siga creciendo y empeorando.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 cartas carta3" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="600" data-aos-delay="1300">
+                        <img src="./images/index/cartas/yasser-mokhtarzadeh-pFNzOEak33M-unsplash.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="text-center">Accionar para solucionar</h3>
+
+                            <p class="card-text">Puede que sea algo muy obvio para algunas personas, pero
+                                la realidad es que mucha gente plantea una solución y postergan la ejecución de la
+                                misma, dejando el problema vigente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="hero container-fluid">
+        <div class="row h-100">
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <h4 class="fw-bold fs-1 text-white text-center w-100 p-3 bg-dark bg-opacity-75 rounded">¿Y vos que estás
+                    esperando para cuidar tu único hogar?</h4>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <button class="btn btn__index btn-light " type="button"><a class="fs-4 fw-bold text-dark"
+                        href="./pages/concientizate.html" style="text-decoration: none;">CONCIENTIZATE</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-fluid bg-dark text-white">
+            <div class="row">
+                <div class="col-md-12 p-3 d-flex flex-column justify-content-center align-items-center">
+                    <p class="fs-5 text-center">Todos los derechos reservados © - 2022</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Material usado</a>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Material usado en la página</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="text-center">
+                                        <div class="d-flex flex-column">
+                                            <a class="p-1" href="https://getbootstrap.com/"
+                                                target="_blank">Bootstrap</a>
+                                            <a class="p-1" href="https://unsplash.com/" target="_blank">Unsplash</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
