@@ -1,0 +1,14 @@
+.hero {
+    background-image: url(../images/index/hero/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg);
+    height: 100vh;
+    background-position: bottom left;}
+    h1 {
+        font-size: 5em;
+    }
+    .carta2 {
+        height: 100%;
+        width: 100%;
+    }
+    .cartas:hover {
+        box-shadow: rgb(55, 55, 55) -5px 5px, rgba(55, 55, 55, 0.3) -10px 10px, rgba(55, 55, 55, 0.2) -15px 15px, rgba(55, 55, 55, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    }

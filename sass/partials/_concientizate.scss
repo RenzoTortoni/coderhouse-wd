@@ -1,0 +1,9 @@
+.container__cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0.5em;
+        padding: 1em;
+        align-items: stretch;
+        grid-template-areas:    "card__ceres card__text";
+}
