@@ -1,0 +1,25 @@
+.container__noticias {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(206, 212, 218);
+    width: 85%;
+    border-radius: 1%;
+    padding-bottom: 1em;
+}
+
+.container__noticias:hover { 
+    background-color: rgb(181, 187, 192);
+}
+
+.noticias__img {
+    align-self: center;
+    width: 75%;
+    object-fit: contain;
+    border-radius: 2%;
+}
+
+.text__noticias {
+    align-self: center;
+}

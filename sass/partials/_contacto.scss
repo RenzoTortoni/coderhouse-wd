@@ -2,7 +2,6 @@
 
 .form {
     @include sc-row;
-    height: 100vh;
     &__info {
         height: 730px;
         width: 80vw;
@@ -18,17 +17,17 @@
     
     &__submit {
         padding: 20px;
-        justify-items: center;
-        align-content: center;
     }
     
     &__submit input {
         padding: 15px;
-        width: 50%;
-        align-items: center;
+        width: 100%;
+        background-color: rgba(12, 220, 70, 0.420);
     }
     
     &__submit input,value {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fff;
     }
 }
