@@ -1,50 +1,5 @@
 @import "../base/variables";
 
 .concientizate__main {
-        background-image: url(../images/donaciones/background.jpg);
-        display: flex;
-        align-items: center;
-        overflow: hidden;
+        background-image: url(../images/conciencia/background.jpg);
 }
-
-// .container__cards{
-//         display: grid;
-//         grid-template-columns: 20% 20% 20% 20% 20%;
-//         grid-template-rows: 45% 10% 45%
-// }
-
-// .concientizate__img1 {
-//         grid-column: 2 / 3;
-//         grid-row: 1;
-//         object-fit: contain;
-//         height: 350px;
-
-//         justify-self: center;
-//         align-self: center;
-//         @include sc-row;
-// }
-
-// .card__text1 {
-//         grid-column: 3 / 6;
-//         grid-row: 1;
-
-//         @include sc-col;
-// }
-
-// .concientizate__img2 {
-//         grid-column: 4 / 5;
-//         grid-row: 3;
-//         object-fit: contain;
-//         height: 350px;
-
-//         justify-self: center;
-//         align-self: center; 
-//         @include sc-row;
-// }
-
-// .card__text2 {
-//         grid-column: 1 / 4;
-//         grid-row: 3;
-
-//         @include sc-col;
-// }

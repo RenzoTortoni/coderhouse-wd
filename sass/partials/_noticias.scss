@@ -4,6 +4,7 @@
     justify-self: center;
     align-self: center;
     background-color: rgb(206, 212, 218);
+    height: 95%;
     width: 85%;
     border-radius: 1%;
     padding-bottom: 1em;
@@ -16,7 +17,6 @@
 .noticias__img {
     align-self: center;
     width: 75%;
-    object-fit: contain;
     border-radius: 2%;
 }
 
